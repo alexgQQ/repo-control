@@ -1,0 +1,7 @@
+<h1>Repo homepage</h1>
+
+
+<h2>Local Repos</h2>
+{% for repo in repos_list %}
+    <li><a>{{ repo.name }} -- {{ repo.clone_url}}</a></li>
+{% endfor %}
